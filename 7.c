@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{
+int x,y,z;
+for(y=0;y<=1;y++)
+{for(x=0;x<=17;x++)
+if(x+y>6&&x+y<13&&y==1&&x<12)
+printf("*");
+else
+printf("0");
+printf("\n");}
+for(y=0;y<=2;y++)
+{for(x=1;x<19;x++)
+if(x+y>4&&x+y<15+y+y)
+printf("*");
+else
+printf("0");
+printf("\n");}
+for(y=0;y<1;y++)
+{for(x=0;x<18;x++)
+if(x+y>1&&x+y<16)
+    printf("*");
+else
+printf("0");
+printf("\n");
+}
+for(y=2;y>=0;y--)
+{for(x=1;x<19;x++)
+if(x+y>4&&x+y<15+y+y)
+printf("*");
+else
+printf("0");
+printf("\n");}
+for(y=0;y<=1;y++)
+{for(x=0;x<=17;x++)
+if(x+y>5&&x+y<13&&y==0&&x<12)
+printf("*");
+else
+printf("0");
+printf("\n");}}
